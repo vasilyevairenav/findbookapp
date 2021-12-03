@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon"  href="img/search.svg">
+    <title>app for finding books</title>
+</head>
+<body>
+    <div class='container'>
+        <h1>FIND YOUR BOOK</h1>
+        <form data-form="find-books" method="post">
+            <input class="search__input">
+            <button type="submit" class="search__button">
+                <img src="img/search.svg"/>
+            </button>
+        </form>
+        <div class="search__loader"></div>
+        <div class="found"></div>
+    </div>
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <div data-close="" class="modal__close">×</div>
+            </div>
+        </div>
+    </div>
+    <script src='js/main.js' ></script>
+</body>
+</html>
